@@ -1,3 +1,7 @@
+pub mod pcs;
+pub mod wb;
+mod aux;
+
 pub fn add(left: u64, right: u64) -> u64 {
     left + right
 }
